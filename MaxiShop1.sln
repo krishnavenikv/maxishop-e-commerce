@@ -1,0 +1,51 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34024.191
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{311EEA4C-2F20-4D80-B0C9-E02DE121FDB9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MaxiShop.web2", "maxiShop.web2\MaxiShop.web2.csproj", "{CAD792DB-EBA4-4D45-8A04-A80C362C5236}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Maxishop.Application", "MaxishopApplication\Maxishop.Application.csproj", "{0263016D-402B-4619-A1EF-70A9977D7FA8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Maxishop.Domain", "MaxishopDomain\Maxishop.Domain.csproj", "{C78E6608-8017-4871-B533-155AF94E8276}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Maxishop.Infrastructure", "MaxishopInfrastructure\Maxishop.Infrastructure.csproj", "{E7E62889-C36E-405D-A0EB-145588D95230}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CAD792DB-EBA4-4D45-8A04-A80C362C5236}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CAD792DB-EBA4-4D45-8A04-A80C362C5236}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CAD792DB-EBA4-4D45-8A04-A80C362C5236}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CAD792DB-EBA4-4D45-8A04-A80C362C5236}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0263016D-402B-4619-A1EF-70A9977D7FA8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0263016D-402B-4619-A1EF-70A9977D7FA8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0263016D-402B-4619-A1EF-70A9977D7FA8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0263016D-402B-4619-A1EF-70A9977D7FA8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C78E6608-8017-4871-B533-155AF94E8276}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C78E6608-8017-4871-B533-155AF94E8276}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C78E6608-8017-4871-B533-155AF94E8276}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C78E6608-8017-4871-B533-155AF94E8276}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E7E62889-C36E-405D-A0EB-145588D95230}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E7E62889-C36E-405D-A0EB-145588D95230}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E7E62889-C36E-405D-A0EB-145588D95230}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E7E62889-C36E-405D-A0EB-145588D95230}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{CAD792DB-EBA4-4D45-8A04-A80C362C5236} = {311EEA4C-2F20-4D80-B0C9-E02DE121FDB9}
+		{0263016D-402B-4619-A1EF-70A9977D7FA8} = {311EEA4C-2F20-4D80-B0C9-E02DE121FDB9}
+		{C78E6608-8017-4871-B533-155AF94E8276} = {311EEA4C-2F20-4D80-B0C9-E02DE121FDB9}
+		{E7E62889-C36E-405D-A0EB-145588D95230} = {311EEA4C-2F20-4D80-B0C9-E02DE121FDB9}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {31B2B723-A7EB-46B5-AEAA-103E0F8E98C9}
+	EndGlobalSection
+EndGlobal
